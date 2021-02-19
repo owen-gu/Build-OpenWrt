@@ -1,4 +1,4 @@
-name: Build_x86_64
+name: Build OpenWrt x86_64
 
 on:
   repository_dispatch:
@@ -8,8 +8,6 @@ on:
         description: 'SSH connection to Actions'
         required: false
         default: 'false'
-
-
  
 env:
   TZ: 'Asia/Shanghai'
