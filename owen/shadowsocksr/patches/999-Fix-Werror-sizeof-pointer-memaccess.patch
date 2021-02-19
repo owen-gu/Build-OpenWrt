@@ -7,4 +7,5 @@
 -                    strncpy(host, ip, sizeof(ip));
 +                    strncpy(host, ip, INET6_ADDRSTRLEN);
                  }
-            }
+             }
+ 
