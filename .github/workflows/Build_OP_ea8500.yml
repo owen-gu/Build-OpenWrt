@@ -6,7 +6,7 @@
 # Description: Build OpenWrt for GitHub Actions
 #
 
-name: Build OpenWrt x86_64
+name: Build OpenWrt ea8500
 
 on:
   repository_dispatch:
@@ -63,9 +63,9 @@ jobs:
         ./scripts/feeds install -a
        
 
-    - name: Configuration Customization - Build_x86_64
+    - name: Configuration Customization - Build_ea8500
       env:
-        CONFIG_FILE: 'x86_64.config'
+        CONFIG_FILE: 'ea8500.config'
       run: |
         [ -e $CONFIG_FILE ] && mv $CONFIG_FILE openwrt/.config
         chmod +x ./customize.sh && ./customize.sh
