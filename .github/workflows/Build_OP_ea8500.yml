@@ -70,7 +70,7 @@ jobs:
     - name: Import external feeds
       working-directory: ./openwrt
       run: |
-        git clone https://github.com/owen-gu/owen package/owen    
+        git clone --depth 1 https://github.com/owen-gu/owen package/owen    
 
     - name: Configuration Customization - Build_ea8500
       env:
