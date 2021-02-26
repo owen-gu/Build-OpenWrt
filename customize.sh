@@ -3,7 +3,6 @@ rm -rf openwrt/package/owen
 rm -rf openwrt/package/OpenAppFilter
 
 
-
 rm -rf openwrt/package/lean/vlmcsd
 rm -rf openwrt/package/lean/luci-app-vlmcsd
 rm -rf openwrt/package/lean/default-settings
