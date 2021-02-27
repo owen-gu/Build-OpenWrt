@@ -7,6 +7,8 @@ rm -rf openwrt/package/lean/vlmcsd
 rm -rf openwrt/package/lean/luci-app-vlmcsd
 rm -rf openwrt/package/lean/default-settings
 rm -rf openwrt/package/lean/luci-lib-docker
+rm -rf openwrt/package/lean/luci-app-netdata
+rm -rf openwrt/feeds/packages/admin/netdata
 rm -rf openwrt/feeds/packages/net/sqm-scripts
 rm -rf openwrt/feeds/luci/applications/luci-app-sqm
 rm -rf openwrt/feeds/luci/applications/luci-app-nlbwmon
