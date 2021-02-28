@@ -21,5 +21,6 @@ git clone --depth=1 https://github.com/destan19/OpenAppFilter
 
 
 cd ..
-cd ..
 
+
+chmod 777 -R ../openwrt
