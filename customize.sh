@@ -1,6 +1,6 @@
 rm -rf openwrt/package/helloworld
 rm -rf openwrt/package/owen
-rm -rf openwrt/package/OpenAppFilter
+#rm -rf openwrt/package/OpenAppFilter
 
 
 rm -rf openwrt/package/lean/vlmcsd
@@ -17,7 +17,7 @@ cd openwrt/package
 #git clone --depth=1 https://github.com/fw876/helloworld
 git clone --depth=1 https://github.com/Mattraks/helloworld
 git clone --depth=1 https://github.com/owen-gu/owen
-git clone --depth=1 https://github.com/destan19/OpenAppFilter
+#git clone --depth=1 https://github.com/destan19/OpenAppFilter
 
 
 
