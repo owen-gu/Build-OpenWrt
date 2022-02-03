@@ -13,8 +13,8 @@ rm -rf openwrt/feeds/packages/net/kcptun
 cd openwrt/package
 # Add OpenAppFilter
 
-#git clone --depth=1 https://github.com/fw876/helloworld
-git clone --depth=1 https://github.com/Mattraks/helloworld
+git clone --depth=1 https://github.com/fw876/helloworld
+#git clone --depth=1 https://github.com/Mattraks/helloworld
 git clone --depth=1 https://github.com/owen-gu/owen
 #git clone --depth=1 https://github.com/destan19/OpenAppFilter
 
