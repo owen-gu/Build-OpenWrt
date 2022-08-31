@@ -9,7 +9,7 @@ rm -rf ./openwrt/package/lean/autocore
 rm -rf ./openwrt/feeds/packages/net/kcptun
 rm -rf ./openwrt/feeds/packages/net/smartdns
 
-sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' ./openwrt/feeds/luci/collections/luci/Makefile
+sed -i 's/luci-theme-bootstrap/luci-theme-argon_new/g' ./openwrt/feeds/luci/collections/luci/Makefile
 
 
 cd openwrt/package
